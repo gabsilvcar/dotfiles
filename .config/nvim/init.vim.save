@@ -1,0 +1,4 @@
+set shortmess+=at
+
+source ~/.config/nvim/plugin.vim
+
