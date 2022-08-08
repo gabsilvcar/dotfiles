@@ -1,0 +1,16 @@
+/*
+/*/
+
+!/.i3/
+!.i3status.conf
+
+
+!/.config
+/.config/*
+!/.config/nvim/
+!/.config/picom/
+
+!.Xresources
+!.bashrc
+!.gitignore
+

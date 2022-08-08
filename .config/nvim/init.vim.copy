@@ -1,5 +1,0 @@
-set shortmess+=at
-
-# source ~/.config/nvim/plugins.vim
-# source ~/.config/nvim/vim/plug-conf/lsp-config.vim
-# luafile ~/.config/nvim/lua/plug-conf/complete-config.lua
