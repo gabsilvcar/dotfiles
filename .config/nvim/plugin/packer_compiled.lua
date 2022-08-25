@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/home/cardoso/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["denops-docker.vim"] = {
+    loaded = true,
+    path = "/home/cardoso/.local/share/nvim/site/pack/packer/start/denops-docker.vim",
+    url = "https://github.com/skanehira/denops-docker.vim"
+  },
+  ["denops.vim"] = {
+    loaded = true,
+    path = "/home/cardoso/.local/share/nvim/site/pack/packer/start/denops.vim",
+    url = "https://github.com/vim-denops/denops.vim"
+  },
   ["gv.vim"] = {
     loaded = true,
     path = "/home/cardoso/.local/share/nvim/site/pack/packer/start/gv.vim",

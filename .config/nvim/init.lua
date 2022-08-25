@@ -46,8 +46,9 @@ require('packer').startup(function()
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
   use 'junegunn/gv.vim'
-
-end)
+  use 'vim-denops/denops.vim'
+  use 'skanehira/denops-docker.vim'
+  end)
 
 -- Plugins
 
