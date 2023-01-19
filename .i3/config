@@ -33,13 +33,13 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Picom composer
-exec --no-startup-id picom --config ~/.config/picom/picom.conf
+# exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # Keyboard mapping
-exec "setxkbmap br"
+exec "setxkbmap us intl"
 
 # Background image
-exec --no-startup-id feh --bg-fill ~/.wallpaper/black.png
+exec --no-startup-id feh --bg-fill ~/.wallpaper/godzilla.png
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -222,3 +222,4 @@ bar {
 }
 for_window [class="^.*"] border pixel 1
 
+hide_edge_borders smart
