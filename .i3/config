@@ -36,7 +36,7 @@ exec --no-startup-id nm-applet
 # exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # Keyboard mapping
-exec "setxkbmap us intl"
+# exec "setxkbmap us intl"
 
 # Background image
 exec --no-startup-id feh --bg-fill ~/.wallpaper/godzilla.png
